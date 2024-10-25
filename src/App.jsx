@@ -7,6 +7,8 @@ import UseEffMouse from "./Components/UseEffMouse"
 import UseEffUnmound from "./Components/UseEffUnmound"
 import UseEffIntervel from "./Components/UseEffIntervel"
 import UseEffFetchData from "./Components/UseEffFetchData"
+import UseRef from "./Components/UseRef"
+import UseRefTimer from "./Components/UseRefTimer"
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
     {/* <UseEffUnmound/> */}
     {/* <UseEffIntervel/> */}
     {/* <UseEffFetchData/> */}
+    {/* <UseRef/> */}
+    {/* <UseRefTimer/> */}
    </div>
   )
 }

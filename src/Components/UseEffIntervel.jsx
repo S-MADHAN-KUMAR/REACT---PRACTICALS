@@ -15,7 +15,7 @@ const UseEffIntervel = () => {
         return()=>{
             clearInterval(Intervel)
         }
-    })
+    },[])
 
 
 
