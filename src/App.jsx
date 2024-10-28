@@ -9,6 +9,11 @@ import UseEffIntervel from "./Components/UseEffIntervel"
 import UseEffFetchData from "./Components/UseEffFetchData"
 import UseRef from "./Components/UseRef"
 import UseRefTimer from "./Components/UseRefTimer"
+import LifeCycle from "./Components/LifeCycle"
+import LifeCycle_function from "./Components/LifeCycle_function"
+import {BrowserRouter as Router , Routes,Route} from 'react-router-dom'
+import Parent from "./Components/Child_to-Parents/Parent"
+import Child from "./Components/Child_to-Parents/Child"
 
 
 function App() {
@@ -25,6 +30,20 @@ function App() {
     {/* <UseEffFetchData/> */}
     {/* <UseRef/> */}
     {/* <UseRefTimer/> */}
+    {/* <LifeCycle/> */}
+    {/* <LifeCycle_function/> */}
+
+{/* For Child TO Parent Practicals */}
+
+    {/* <Router>
+      <Routes>
+        <Route path="/" element={<Parent/>} />
+      </Routes>
+    </Router> */}
+
+
+
+
    </div>
   )
 }
